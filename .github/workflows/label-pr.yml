@@ -5,10 +5,10 @@ on:
 
 jobs:
   triage:
-  runs-on: ubuntu-latest
-  steps:
-  - uses: joshdales/labeler@main
-    with:
-      repo-token: ${{ secrets.GITHUB_TOKEN }}
-      sync-labels: true
+    runs-on: ubuntu-latest
+    steps:
+    - uses: joshdales/labeler@main
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        sync-labels: true
 
