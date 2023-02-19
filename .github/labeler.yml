@@ -1,4 +1,13 @@
-changed-files-any-1:
-  - changed-files: changed-files-any-1/*
+any:
+  - changed-files: 
+    - any: "any/*"
   
-changed-files-any-1:
+all:
+  - changed-files: 
+    - all: ["all/part1", "all/part2"]
+    
+head: 
+  - head-branch: "head-branch"
+  
+ base: 
+   - base-branch: "main"
