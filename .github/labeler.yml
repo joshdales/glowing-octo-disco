@@ -4,7 +4,7 @@ any:
 
 all:
   - changed-files:
-    - all: ["all/part1", "all/part2"]
+    - all: ["all/test", "all/*.txt"]
 
 head:
   - head-branch: "head-branch"
