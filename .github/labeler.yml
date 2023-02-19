@@ -10,4 +10,4 @@ head:
   - head-branch: "head-branch"
 
 base:
-   - base-branch: "main"
+  - base-branch: "main"
