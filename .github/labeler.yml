@@ -1,13 +1,13 @@
 any:
-  - changed-files: 
+  - changed-files:
     - any: "any/*"
-  
+
 all:
-  - changed-files: 
+  - changed-files:
     - all: ["all/part1", "all/part2"]
-    
-head: 
+
+head:
   - head-branch: "head-branch"
-  
- base: 
+
+base:
    - base-branch: "main"
