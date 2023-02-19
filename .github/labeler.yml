@@ -1,2 +1,4 @@
-test:
-- branch: test/*
+changed-files-any-1:
+  - changed-files: changed-files-any-1/*
+  
+changed-files-any-1:
