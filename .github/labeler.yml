@@ -11,7 +11,7 @@ head:
 base:
   - base-branch: "main"
 
-tests:
+test:
   - head-branch: ['^tests/', '^test/']
   - changed-files: ['tests/**/*', 'perf-tests/**/*']
 
