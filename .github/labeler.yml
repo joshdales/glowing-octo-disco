@@ -1,10 +1,9 @@
 any:
-  - changed-files:
-    - any: "any/*"
+  - changed-files: "any/*"
 
 all:
-  - changed-files:
-    - all: "**/*.txt"
+  - all:
+    - changed-files: "**/*.txt"
 
 head:
   - head-branch: "head-branch"
