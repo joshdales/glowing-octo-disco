@@ -10,3 +10,11 @@ head:
 
 base:
   - base-branch: "main"
+
+tests:
+  - head-branch: ['^tests/', '^test/']
+  - changed-files: ['tests/**/*', 'perf-tests/**/*']
+
+dependencies:
+  - head-branch: ['^deps/', '^dep/', '^dependabot/']
+  - changed-files: ['go.mod', 'go.sum']
