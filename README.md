@@ -1,1 +1,1 @@
-I use this repo to test my fork of the labeler action: https://github.com/joshdales/labeler
+I use this repo to test my fork of [actions/labeler](https://github.com/actions/labeler)
